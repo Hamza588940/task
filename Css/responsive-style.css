@@ -1,18 +1,33 @@
 @media (min-width: 1200px) {
   .container {
-    max-width: 100% !important;
+    max-width: 98% !important;
   }
 }
-@media (max-width: 991px) {
-  /* .navbar {
-    z-index: 0;
-  }  */
-}
+
 @media (max-width: 1150px) {
   .service-wrapper .upset .service-card-app .service-list li a {
     font-size: 1.1rem;
   }
   .service-wrapper .upset .service-card-app .service-list li {
     padding: 0 0.3rem;
+  }
+}
+@media (max-width: 991px) {
+  .testimonial-wrapper .pl50 {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .work-category-wrapper .industry-worker {
+    padding: 15px;
+    display: block;
+    text-align: center;
+    margin: 0 auto 15px;
+  }
+  .work-category-wrapper .industry-worker h6 {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    line-height: 20px;
   }
 }
